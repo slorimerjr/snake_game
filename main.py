@@ -10,14 +10,13 @@ screen.title("My Snake Game")
 screen.tracer(0)
 
 snake = Snake()
-snake.create_snake()
+
 
 game_is_on = True
-
-
 while game_is_on:
     screen.update()
     time.sleep(0.1)
+
     snake.move()
 
 
