@@ -27,3 +27,4 @@ class Scoreboard(Turtle):
         self.clear()
         self.update_scoreboard()
 
+
